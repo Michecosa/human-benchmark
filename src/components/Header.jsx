@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-0">
         <div className="container justify-content-start">
           <Link className="navbar-brand m-0 p-0" to="/">
-            <button className="btn btn-light p-2 fs-5">
+            <button className="btn btn-light p-2">
               <i
                 className="bi bi-lightning-charge-fill text-body-tertiary"
                 width={30}
@@ -19,9 +19,7 @@ export default function Header() {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link className="nav-link p-0" to="/#">
-                  <button className="btn btn-light h-100 p-2 fs-5">
-                    DASHBOARD
-                  </button>
+                  <button className="btn btn-light h-100 p-2">DASHBOARD</button>
                 </Link>
               </li>
             </ul>
