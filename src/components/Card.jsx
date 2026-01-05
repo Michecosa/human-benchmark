@@ -12,7 +12,7 @@ export default function Card({ icon, title, text, badge, path }) {
           {badge && (
             <span
               className="badge bg-danger position-absolute m-2 py-2 fs-5 fw-normal px-2 rounded-3"
-              style={{ top: "-5%", right: "-5%" }}
+              style={{ top: "0", right: "0" }}
             >
               {badge}
             </span>
